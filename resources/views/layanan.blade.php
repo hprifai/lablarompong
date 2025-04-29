@@ -21,7 +21,7 @@
                                 <img src="{{ asset('storage/img/'.$service->image) }}" alt="" class="w-32 h-32 bg-gray-100 rounded-full ring-2 ring-amber-400 group-hover:scale-110 transition-all duration-500 ">
                                 <div class="text-center text-emerald-900 mt-4">
                                     <h1 class="font-bold">{{ $service->jenis_tes }}</h1>
-                                    <div><span class="ml-1">{{ $service->harga }}</span></div>
+                                    <div><span class="ml-1">@currency($service->harga)</span></div>
                                     <p>{{ $service->lama_periksa }}</p>
                                 </div>
                             </div>

@@ -5,7 +5,7 @@
         <div class="mt-10 text-center text-2xl font-extrabold ">Layanan Kami</div>
         <p class="px-14 py-8 text-gray-400 text-justify">Penting untuk  membaca prosedure/alur pemeriksaan dan alur rujukan laboratorium</p>
         <div id="Alur" class="flex flex-col gap-3 md:flex-row ">
-            <div class="w-full md:w-1/2 flex flex-col md:flex-col px-14 font-bold" x-data ="{expandAlur : false}">
+            <div class="w-full md:w-1/2 flex flex-col px-10 md:flex-col md:px-14 font-bold" x-data ="{expandAlur : false}">
                 <div class="w-full h-10 flex items-center  mr-10 justify-between bg-emerald-200 hover:bg-emerald-400  rounded-2xl p-2 cursor-pointer active:ring-3 active:ring-green-700 active:ring-offset-2" @click="expandAlur= !expandAlur">
                     <h1>Alur Pemeriksaan Laboratorium </h1>
                     <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24":class="{'rotate-180 transition 0.2s ease-out ': expandAlur} " >
@@ -24,7 +24,7 @@
                     <img src="/storage/img/alur-pemeriksaan.jpg" alt="" class="w-full h-[80%]  pt-4 ">
                 </div>
             </div>
-            <div class="w-full md:w-1/2 flex flex-col  md:flex-col px-14 font-bold" x-data ="{expandAlur : false}">
+            <div class="w-full md:w-1/2 flex flex-col px-10  md:flex-col md:px-14 font-bold" x-data ="{expandAlur : false}">
                 <div class="w-full h-10 items-center flex mr-10 justify-between bg-emerald-200 hover:bg-emerald-400 rounded-2xl p-2 cursor-pointer active:ring-3 active:ring-green-700 active:ring-offset-2" @click="expandAlur= !expandAlur">
                     <h1>Alur Rujukan Laboratorium  </h1>
                     <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24 " :class="{'rotate-180 transition 0.2s ease-out ': expandAlur} " >
@@ -58,7 +58,7 @@
                             <img src="{{ asset('storage/img/'.$serve->image) }}" alt="" class="w-32 h-32 bg-gray-100 rounded-full ring-2 ring-amber-400 group-hover:scale-110 transition-all duration-500 ">
                             <div class="text-center text-emerald-900 mt-4">
                                 <h1 class="font-bold">{{ $serve->jenis_tes }}</h1>
-                                <div><span class="ml-1">{{ $serve->harga }}</span></div>
+                                <div><span class="ml-1">@currency($serve->harga)</span></div>
                                 <p>{{ $serve->lama_periksa }}</p>
                             </div>
                         </div>
