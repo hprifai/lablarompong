@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Models\Category;
 use App\Models\Service;
 use App\Models\Post;
@@ -51,3 +52,10 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact',['title' => 'Contact']);
 });
+
+
+Route::get('/login',[AuthController::class, 'loginForm'])->name('login');
+
+Route::post('/login',[AuthController::class, 'authenticate']);
+
+Route::get('logout',[AuthController::class, 'logout']);

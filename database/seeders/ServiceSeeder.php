@@ -17,8 +17,8 @@ class ServiceSeeder extends Seeder
             'jenis_tes'=> 'Pemeriksaan Darah Rutin',
             'slug'=> 'pemeriksaan-darah-rutin',
             'image'=> 'tes_darah.jpg',
-            'harga'=>50000,
-            'lama_periksa'=>'10 menit',
+            'harga'=>30000,
+            'lama_periksa'=>'30 menit',
             'manfaat'=>'Pemeriksaan Darah Rutin merupakan penilaian dasar komponen eritrosit, leukosit, trombosit. Manfaat pemeriksaan ini untuk evaluasi anemia, leukemia, infeksi bakteri, virus parasit dan kemungkinan alergi, polisitemia, kemungkinan kelainan perdarahan',
             'persiapan'=>'Tidak Ada Persiapan Khusus',
             'deskripsi'=>'Pemeriksaan atau tes hematologi rutin merupakan penilaian dasar untuk beberapa komponen darah. Mulai dari komponen eritrosit (sel darah merah), leukosit (sel darah putih) hingga komponen trombosit (sel terkecil dari darah). Pemeriksaan ini dapat dilakukan untuk mengevaluasi atau mendeteksi berbagai kondisi medis. Contohnya seperti infeksi, leukemia (kanker sel darah putih), anemia (kekurangan sel darah merah sehat), polisitemia, hingga kemungkinan kelainan perdarahan'
@@ -27,7 +27,7 @@ class ServiceSeeder extends Seeder
             'jenis_tes'=> 'Hemoglobin',
             'slug'=> 'hemoglobin',
             'image'=> 'hemoglobin.jpeg',
-            'harga'=>30000,
+            'harga'=>20000,
             'lama_periksa'=>'5 menit',
             'manfaat'=>'Pemeriksaan kadar hemoglobin (Hb) memiliki beberapa manfaat penting, terutama dalam mendeteksi anemia dan memantau kondisi kesehatan secara umum. Pemeriksaan ini juga bisa membantu dalam mendiagnosis penyakit tertentu dan memantau efektivitas pengobatan',
             'persiapan'=>'Tidak Ada Persiapan Khusus',
@@ -43,7 +43,7 @@ class ServiceSeeder extends Seeder
             'jenis_tes'=> 'Glukosa Darah Sewaktu',
             'slug'=> 'glukosa-darah-sewaktu',
             'image'=> 'glukosa_darah.jpg',
-            'harga'=>50000,
+            'harga'=>20000,
             'lama_periksa'=>'5 menit',
             'manfaat'=>'
             <ul type="circle" class="text-gray-500" >
@@ -64,7 +64,7 @@ class ServiceSeeder extends Seeder
             'jenis_tes'=> 'Glukosa Darah Puasa',
             'slug'=> 'glukosa-darah-puasa',
             'image'=> 'glukosa_darah_puasa.jpg',
-            'harga'=>50000,
+            'harga'=>20000,
             'lama_periksa'=>'5 menit',
             'manfaat'=>'
             <ul type="circle" class="text-gray-500" >
@@ -80,7 +80,7 @@ class ServiceSeeder extends Seeder
             'jenis_tes'=> 'Kolesterol',
             'slug'=> 'kolesterol',
             'image'=> 'kolesterol.png',
-            'harga'=>50000,
+            'harga'=>30000,
             'lama_periksa'=>'5 menit',
             'manfaat'=>'Tujuan pemeriksaan kolesterol yakni untuk mengetahui  jumlah kadar komponen lemak dalam darah dan dapat mengetahui resiko terjadinya timbunan plak atau  penyumbatan di pembuluh darah yang dapat memicu berbagai penyakit kardiovaskuler, seperti serangan jantung, penyakit jantung coroner, hipertensi dan stroke',
             'persiapan'=>'Sebelum melakukan pemeriksaan kolesterol, pasien diwajibkan untuk berpuasa selama 12 jam sebelum pengambilan sampel darah. Selain itu, terdapat beberapa hal yang penting untuk diperhatikan sebelum menjalani tes kolesterol, di antaranya:
@@ -97,7 +97,7 @@ class ServiceSeeder extends Seeder
             'jenis_tes'=> 'Pemeriksaan Asam Urat',
             'slug'=> 'pemeriksaan_asam_urat',
             'image'=> 'asam_urat.png',
-            'harga'=>50000,
+            'harga'=>25000,
             'lama_periksa'=>'5 menit',
             'manfaat'=>'Jika terlalu banyak asam urat di dalam tubuh, maka dapat membentuk kristal di persendian. Kondisi ini akan menimbulkan peradangan dan rasa nyeri di persendian jika dibiarkan begitu saja tanpa pemeriksaan dan pengobatan
             Bahkan, asam urat yang sudah parah dapat memicu penyakit lain seperti gagal ginjal dan batu ginjal. Oleh karena itu, penting menerapkan pola makan sehat untuk menghindari naiknya uric acid di dalam tubuh',
@@ -115,8 +115,8 @@ class ServiceSeeder extends Seeder
             'jenis_tes'=> 'Pemeriksaan hCG',
             'slug'=> 'pemeriksaan_hcg',
             'image'=> 'kehamilan.png',
-            'harga'=>50000,
-            'lama_periksa'=>'5 menit',
+            'harga'=>20000,
+            'lama_periksa'=>'10 menit',
             'manfaat'=>'
             <ul type="circle" class="text-gray-500" >
             <li>•	Memastikan apakah seseorang sedang hamil atau tidak.</li>
@@ -137,8 +137,8 @@ class ServiceSeeder extends Seeder
             'jenis_tes'=> 'Pemeriksaan Hepatitis B/HBsAg',
             'slug'=> 'pemeriksaan_hepatitis_b',
             'image'=> 'hepatitis_b.png',
-            'harga'=>50000,
-            'lama_periksa'=>'5 menit',
+            'harga'=>30000,
+            'lama_periksa'=>'30 menit',
             'manfaat'=>'Pemeriksaan HBsAg adalah untuk deteksi dini serta diagnosis hepatitis B yang menyebabkan peradangan pada organ hati. Selain itu, prosedur pemeriksaan ini juga dapat digunakan untuk memantau perkembangan infeksi dan efektivitas pengobatan yang dijalani oleh penderita hepatitis B. Pemeriksaan hepatitis B tidak hanya dilakukan pada orang yang memiliki gejala. Orang yang sehat pun juga perlu melakukan skrining pemeriksaan hepatitis B, terutama mereka yang berisiko tinggi terpapar virus hepatitis B meliputi:  
             <ul type="circle" class="text-gray-500" >
             <li>•	Wanita yang sedang hamil.</li>
@@ -162,8 +162,8 @@ class ServiceSeeder extends Seeder
             'jenis_tes'=> 'Pemeriksaan Hepatitis C',
             'slug'=> 'pemeriksaan_hepatitis_c',
             'image'=> 'hepatitis_c.png',
-            'harga'=>50000,
-            'lama_periksa'=>'5 menit',
+            'harga'=>30000,
+            'lama_periksa'=>'30 menit',
             'manfaat'=>'Pemeriksaan untuk deteksi anti-HCV dapat digunakan baik untuk skrining maupun untuk diagnosis infeksi HCV. Pemeriksaan anti-HCV tidak menunjukkan infeksi akut, kronik atau sudah sembuh
             ',
             'persiapan'=>'Tidak ada persiapan khusus',
@@ -174,8 +174,8 @@ class ServiceSeeder extends Seeder
             'jenis_tes'=> 'Pemeriksaan Anti HBS',
             'slug'=> 'pemeriksaan_anti_hbs',
             'image'=> 'anti_hbs.jpg',
-            'harga'=>50000,
-            'lama_periksa'=>'5 menit',
+            'harga'=>30000,
+            'lama_periksa'=>'30 menit',
             'manfaat'=>'
             <ul type="circle" class="text-gray-500" >
             <li>•	Tes Anti-HBS (Antibodi Hepatitis B) kuantitatif bermanfaat untuk untuk menilai kekebalan tubuh (antibodi) yang dihasilkan sebagai respons terhadap paparan antigen virus Hepatitis B. Apabila pemeriksaan HBsAg dilakukan untuk mendeteksi infeksi Hepatitis B, maka kadar anti-HBs menilai kemampuan sistem imun tubuh untuk melindungi diri.</li>
@@ -189,8 +189,8 @@ class ServiceSeeder extends Seeder
             'jenis_tes'=> 'Malaria',
             'slug'=> 'malaria',
             'image'=> 'malaria.png',
-            'harga'=>50000,
-            'lama_periksa'=>'5 menit',
+            'harga'=>30000,
+            'lama_periksa'=>'30 menit',
             'manfaat'=>'Digunakan untuk mendiagnosis malaria, gangguan parasit pada darah, menilai penyakit demam yang belum diketahui penyebabnya
             ',
             'persiapan'=>'Tidak ada persiapan khusus',
@@ -211,7 +211,7 @@ class ServiceSeeder extends Seeder
             'slug'=> 'demam_berdarah_dangue',
             'image'=> 'dbd.jpg',
             'harga'=>50000,
-            'lama_periksa'=>'5 menit',
+            'lama_periksa'=>'30 menit',
             'manfaat'=>'Pemeriksaan DBD (Demam Berdarah Dengue) memiliki manfaat penting untuk mendiagnosis infeksi virus dengue, memantau perkembangan penyakit, dan mencegah komplikasi serius. Tes ini membantu memastikan diagnosis yang tepat dan memungkinkan dokter memberikan pengobatan yang tepat.
             ',
             'persiapan'=>'Tidak ada persiapan khusus',

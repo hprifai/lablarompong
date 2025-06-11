@@ -1,6 +1,6 @@
 <!-- Simplicity is an acquired taste. - Katharine Gerould -->
 <!DOCTYPE html>
-<html lang="en" class="h-full bg-gray-100 scroll-smooth">
+<html lang="en" class="h-full bg-gray-100 scroll-smooth dark">
 
 <head>
     <meta charset="UTF-8">

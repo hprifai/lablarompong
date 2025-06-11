@@ -19,11 +19,11 @@
                 </svg>  </a>                
             </div>
         </div>
-        <div class="menu text-white flex flex-col space-y-2 pl-10 md:space-x-2 md:flex-row font-light md:mx-auto py-4 ">
+        <div class="menu text-white flex flex-col space-y-2 pl-10 md:space-x-2 md:flex-row font-light md:mx-auto py-4 dark:text-red ">
             <a href="/" class="hover:text-black">Beranda</a>
             <a href="/about" class="hover:text-black">Tentang kami</a>
             <a href="/layanan" class="hover:text-black">Layanan</a>
-            <a href="/posts" class="hover:text-black">Blog</a>
+            {{-- <a href="/posts" class="hover:text-black">Blog</a> --}}
             <a href="/contact" class="hover:text-black">Kontak kami</a>
         </div>
         <div class="copyright pl-10 md:mx-auto text-white font-light text-sm pb-4">created by <span class="font-bold text-md text-black hover:text-white">Ilagaligo Studio.</span> | &copy; copyright {{ date("Y") }} </div>

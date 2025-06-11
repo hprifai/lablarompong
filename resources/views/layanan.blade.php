@@ -4,7 +4,7 @@
     <section id="layanan">
         {{-- Header --}}
         <div class="container max-w-full" >
-            <div class="mt-10 text-center text-2xl font-extrabold px-8">Mau Ki Tes Laboratorium ?</div>
+            <div class="mt-10 text-center text-2xl font-extrabold px-8 text-black">Mau Ki Tes Laboratorium ?</div>
             <p class="text-gray-400  text-justify px-10 pt-5 md:text-center">Kami melayani pemeriksaan laboratorium sesuai dengan ketentuan yang berlaku, hanya dalam beberapa menit hasil pemeriksaan laboratorium sudah selesai dan dapat dilihat oleh yang bersangkutan. <br>
             <span class="">Beberapa pemeriksaan laboratorium memerluka persiapan puasa sebelum diambil darah. Boleh minum air putih selama puasa untuk persiapan pemeriksaan laboratorium</span>
             </p>
