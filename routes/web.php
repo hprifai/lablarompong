@@ -53,6 +53,10 @@ Route::get('/contact', function () {
     return view('contact',['title' => 'Contact']);
 });
 
+Route::get('/info', function () {
+    return view('info',['title' => 'Info TBC']);
+});
+
 
 Route::get('/login',[AuthController::class, 'loginForm'])->name('login');
 

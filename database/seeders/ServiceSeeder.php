@@ -363,7 +363,7 @@ class ServiceSeeder extends Seeder
 
 
 
-            <b>Pemeriksaan Mikroskopis:<b> <br>
+            <b>Pemeriksaan Mikroskopis:</b> <br>
             •	Sel darah putih: Menandakan adanya infeksi atau peradangan dalam saluran kemih.<br>
             •	Sel darah merah: Menandakan adanya infeksi, batu ginjal, atau kanker ginjal.<br>
             •	Bakteri: Menandakan adanya infeksi saluran kemih.<br>

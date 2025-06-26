@@ -40,7 +40,7 @@
                     x-transition:leave-start="opacity-100 scale-100"
                     x-transition:leave-end="opacity-0 scale-90"
                 >
-                    <img src="/storage/img/alur-rujukan.jpg" alt="" class="w-full h-[80%]  pt-4 "">
+                    <img src="/storage/img/alur-rujukan.jpg" alt="" class="w-full h-[80%]  pt-4 ">
                 </div>
             </div>
         </div>

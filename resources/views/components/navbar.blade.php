@@ -18,6 +18,7 @@
                         <x-navlink href="/layanan" :active="request()->is('layanan')">Layanan</x-navlink>
                         {{-- <x-navlink href="/posts" :active="request()->is('posts')">Blog</x-navlink> --}}
                         <x-navlink href="/contact" :active="request()->is('contact')">Kontak kami</x-navlink>
+                        <x-navlink href="/info" :active="request()->is('info')">Info TBC</x-navlink>
                         
                     </div>
                 </div>
