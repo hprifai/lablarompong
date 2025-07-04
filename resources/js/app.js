@@ -1,7 +1,7 @@
 import './bootstrap';
 
 
-//Alpine js
+
 import Alpine from 'alpinejs';
 
 import allData from './allData';
