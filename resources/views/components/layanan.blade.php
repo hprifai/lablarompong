@@ -159,8 +159,8 @@
                     
                     <!-- Title and description -->
                     <div class="lg:py-80 lg:pl-80 absolute inset-0 z-10 flex flex-col items-center justify-end-safe gap-2 bg-linear-to-t from-surface-dark/85 to-transparent px-16 py-12 text-center">
-                        <h3 class="w-full lg:w-[80%] text-balance text-2xl lg:text-3xl font-bold text-on-surface-dark-strong" x-text="slide.title" x-bind:aria-describedby="'slide' + (index + 1) + 'Description'"></h3>
-                        <p class="lg:w-1/2 w-full text-pretty text-sm text-on-surface-dark" x-text="slide.description" x-bind:id="'slide' + (index + 1) + 'Description'"></p>
+                        <h3 class="hidden lg:block w-full lg:w-[80%] text-balance text-2xl lg:text-3xl font-bold text-on-surface-dark-strong" x-text="slide.title" x-bind:aria-describedby="'slide' + (index + 1) + 'Description'"></h3>
+                        <p class="hidden lg:block  lg:w-1/2 w-full text-pretty text-sm text-on-surface-dark" x-text="slide.description" x-bind:id="'slide' + (index + 1) + 'Description'"></p>
                     </div>
     
                     <img class="absolute w-full lg:w-1/2 h-full inset-0 object-fill md:object-contain text-on-surface dark:text-on-surface-dark" x-bind:src="slide.imgSrc" x-bind:alt="slide.imgAlt" />
