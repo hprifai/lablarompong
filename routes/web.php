@@ -12,28 +12,28 @@ Route::get('/', function (Service $service) {
     return view('home', ['title'=> 'Home Page','service'=>Service::limit(4)->get() ]);
 });
 
-Route::get('/posts', function () {
-    $posts = Post::latest();
-    if(request('search')){
-        $posts->where('title', 'like', '%' . request('search'). '%' );
-    }
+// Route::get('/posts', function () {
+//     $posts = Post::latest();
+//     if(request('search')){
+//         $posts->where('title', 'like', '%' . request('search'). '%' );
+//     }
     
-    return view('posts',['title' => 'Blog', 'posts' => Post::filter(request(['search','category','author']))->latest()->paginate(5)->withQueryString()]);
-});
+//     return view('posts',['title' => 'Blog', 'posts' => Post::filter(request(['search','category','author']))->latest()->paginate(5)->withQueryString()]);
+// });
 
-Route::get('/posts/{post:slug}', function ( Post $post){
-    return view('post', ['title' => 'Single post', 'post'=>$post]);
-});
+// Route::get('/posts/{post:slug}', function ( Post $post){
+//     return view('post', ['title' => 'Single post', 'post'=>$post]);
+// });
 
-Route::get('/authors/{user:username}', function ( User $user){
-    $posts = $user->posts->load('category','author');
-    return view('posts', ['title' =>'Article by '.$user->name. ' : '.count($posts), 'posts' => $posts]);
-});
+// Route::get('/authors/{user:username}', function ( User $user){
+//     $posts = $user->posts->load('category','author');
+//     return view('posts', ['title' =>'Article by '.$user->name. ' : '.count($posts), 'posts' => $posts]);
+// });
 
-Route::get('/categories/{category:slug}', function ( Category $category){
-    $posts = $category->posts->load('category','author');
-    return view('posts', ['title' => 'Article in: '.$category->name, 'posts'=>$posts]);
-});
+// Route::get('/categories/{category:slug}', function ( Category $category){
+//     $posts = $category->posts->load('category','author');
+//     return view('posts', ['title' => 'Article in: '.$category->name, 'posts'=>$posts]);
+// });
 
 Route::get('/layanan', function () {
     $allServices = Service::latest();
@@ -58,8 +58,8 @@ Route::get('/info', function () {
 });
 
 
-Route::get('/login',[AuthController::class, 'loginForm'])->name('login');
+// Route::get('/login',[AuthController::class, 'loginForm'])->name('login');
 
-Route::post('/login',[AuthController::class, 'authenticate']);
+// Route::post('/login',[AuthController::class, 'authenticate']);
 
-Route::get('logout',[AuthController::class, 'logout']);
+// Route::get('logout',[AuthController::class, 'logout']);

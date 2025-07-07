@@ -11,7 +11,6 @@
                     <div class="w-auto lg:w-100"  x-data="{selected:null}" >
                         <div @click="selected !== 1 ? selected =  1 : selected = null" @click.away="selected=null" class="flex h-15 w-full bg-white items-center cursor-pointer p-4 shadow-lg rounded-t-sm justify-between " :class="selected ==1  ? 'text-green-700' : 'text-black'">
                             <p class="font-semibold text-base font-stretch-normal text-center">Apa itu TBC ?</p>
-                            
                                 <svg class="w-6 h-5 text-gray-700 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none" viewBox="0 0 24 24":class="{'rotate-180 transition transform 0.5s ease-in text-green-700': selected} " >
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
                                 </svg>
@@ -81,7 +80,7 @@
                     </div>
                     <div class="w-auto lg:w-100" x-data="{selected:null}" @click.away="selected=null">
                         <div @click="selected !== 4 ? selected = 4 : selected = null " class="flex h-15 w-full bg-white items-center cursor-pointer p-4 shadow-lg rounded-t-sm justify-between" :class="selected == 4 ? 'text-green-700' : 'text-black'">
-                            <p class="font-semibold text-base font-stretch-normal text-center">Bagaimana cara penularan TBC?</p>
+                            <p class="font-semibold text-base font-stretch-normal text-center">Bagaimana cara penularan TBC ?</p>
                             
                                 <svg class="w-6 h-5 text-gray-700 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none" viewBox="0 0 24 24":class="{'rotate-180 transition transform 0.5s ease-in text-green-700': selected}" >
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
@@ -95,7 +94,7 @@
                     </div>
                     <div class="w-auto lg:w-100" x-data="{selected:null}" @click.away="selected=null">
                         <div @click="selected !== 5 ? selected = 5 : selected = null " class="flex h-15 w-full bg-white items-center cursor-pointer p-4 shadow-lg rounded-t-sm justify-between" :class="selected == 5 ? 'text-green-700' : 'text-black'">
-                            <p class="font-semibold text-base font-stretch-normal text-center">Bagaimana cara pengobatan TBC?</p>
+                            <p class="font-semibold text-base font-stretch-normal text-center">Bagaimana cara pengobatan TBC ?</p>
                             
                                 <svg class="w-6 h-5 text-gray-700 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none" viewBox="0 0 24 24":class="{'rotate-180 transition transform 0.5s ease-in text-green-700': selected}" >
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
@@ -119,7 +118,7 @@
                 </div>
             </div>
         </div>
-        <div class="#tpt mx-5 mt-10">
+        <div class="#tpt mx-5 mt-15">
             <h1 class="text-3xl font-extrabold">TPT (Terapi Pencegahan <span class="text-4xl text-green-700">Tuberkulosis</span>)</h1>
             <p class="font-light text-lg/8 antialiased  ">Semua orang bisa terkena Tuberkulosis (TBC), namun Apakah kamu tahu kalau Tidak semua orang yang terinfeksi Tuberkulosis (TBC) akan menunjukkan gejala penyakit TBC? Banyak dari kita tidak menyadari bahwa tubuh kita bisa menjadi medan pertempuran tersembunyi melawan bakteri berbahaya, Mycobacterium tuberculosis.
             Beberapa orang hanya terinfeksi tanpa menunjukkan tanda-tanda sakit atau gejala TBC aktif  seperti batuk, berkeringat pada malam hari, ataupun penurunan badan. Beberapa orang yang terinfeksi oleh kuman Mycobacterium tuberculosis dan “dikarantina” oleh sistem kekebalan tubuh menjadi infeksi laten tuberkulosis (ILTBC).</p>
